@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e01111;
+    background-image:url(https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg);
+}
+
+/* Header and Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080404;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero .btn:hover {
+    background-color: #e68900;
+}
+
+/* Products Section */
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #160e15;
+}
+
+.products h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    
+    color: #eee;
+
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: #faf5f9;
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px 20px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column
+}
+
+.search-box {
+    width: 500px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    background: url('search-icon.png') no-repeat 10px center;
+    background-size: 20px;
+}
+#btn{
+    width: 100px;
+    background-color:rgb(143, 143, 189);
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-size: 20px;
+    padding-left:5px 5px 5px 20px;
+    cursor: pointer;
+    }
+   .button-value {
+    border: 2px solid rgb(145, 145, 240);
+    padding: 1.5em 2.6em;
+    border-radius: 3em;
+    background-color: transparent;
+    color: rgb(152, 152, 245);
+    cursor: pointer;
+    margin-bottom: 20px;
+    }
+    .product-list{
+        display: flex;
+    }
+   .product-list div{
+    width: 200px;
+    height: 100%;
+    background-color: #f3f0f0;
+    margin: 10px;
+   } 
+   .product-list div img{
+    height: 150px;
+    width: 120px;
+   }
